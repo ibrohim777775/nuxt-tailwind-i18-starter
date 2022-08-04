@@ -1,0 +1,14 @@
+.github
+.eslintrc
+.prettierrc
+.vscode
+README.md
+package.json
+
+# Dependency directories
+node_modules/
+
+# nuxt.js build output
+.nuxt
+.output
+dist

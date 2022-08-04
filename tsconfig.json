@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "baseUrl": ".",
+    "allowJs": true,
+    "checkJs": false,
+    "paths": {
+      "~~": ["."],
+      "~~/*": ["./*"],
+      "@@": ["."],
+      "@@/*": ["./*"],
+      "~": ["."],
+      "~/*": ["./*"],
+      "@": ["."],
+      "@/*": ["./*"],
+      "assets": ["assets"],
+      "assets/*": ["assets/*"],
+      "public": ["public"],
+      "public/*": ["public/*"],
+      "#app": ["node_modules/nuxt/dist/app"],
+      "#app/*": ["node_modules/nuxt/dist/app/*"],
+      "vue-demi": ["node_modules/nuxt/dist/app/compat/vue-demi"],
+      "#color-mode-options": [".nuxt/color-mode-options"],
+      "#head": ["node_modules/nuxt/dist/head/runtime"],
+      "#head/*": ["node_modules/nuxt/dist/head/runtime/*"],
+      "#pages": ["node_modules/nuxt/dist/pages/runtime"],
+      "#pages/*": ["node_modules/nuxt/dist/pages/runtime/*"],
+      "#components": [".nuxt/components"],
+      "#imports": [".nuxt/imports"],
+      "#build": [".nuxt"],
+      "#build/*": [".nuxt/*"]
+    }
+  },
+  "extends": "./.nuxt/tsconfig.json",
+  "include": ["./nuxt-env.d.ts"]
+}
